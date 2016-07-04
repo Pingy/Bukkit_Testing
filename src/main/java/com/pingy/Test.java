@@ -30,7 +30,7 @@ public class Test extends JavaPlugin {
                 player.sendMessage(ChatColor.AQUA + "Hey, what are you doing?");
                 player.setVelocity(new Vector(1, 1, 1));
                 World world = player.getWorld();
-                world.playSound(player.getLocation(), Sound.ENTITY_LIGHTNING_THUNDER, 2F, 1 );
+                world.playSound(player.getLocation(), Sound.ENTITY_LIGHTNING_THUNDER, 2F, 1F );
             }
             else {
                 getLogger().info("Dude you aren't even a player.");
